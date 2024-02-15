@@ -15,7 +15,7 @@ I. REQUIREMENTS: <br>
 ====================== <br>
 
 1. A KLCiS Voucher System account, create an account at https://klinternetservices.com
-2. Voucher codes with the corresponding amount in CSV format. Here's the tutorial using Mihkmon as voucher generator: https://youtu.be/dnQ8RlyxbKE?t=1246
+2. Voucher codes with the corresponding amount in CSV format. Here's the tutorial using Mikhmon as voucher generator: https://youtu.be/dnQ8RlyxbKE?t=1246
 
 ====================== <br>
 II. INSTALLATION: <br>
