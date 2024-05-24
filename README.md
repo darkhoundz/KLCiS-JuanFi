@@ -15,7 +15,7 @@ I. REQUIREMENTS: <br>
 ====================== <br>
 
 1. A KLCiS Voucher System account, create an account at https://klinternetservices.com
-2. Voucher codes with the corresponding amount in CSV format. Here's the tutorial using Mihkmon as voucher generator: https://youtu.be/dnQ8RlyxbKE?t=1246
+2. Voucher codes with the corresponding amount in CSV format. Here's the tutorial using Mikhmon as voucher generator: https://youtu.be/dnQ8RlyxbKE?t=1246
 
 ====================== <br>
 II. INSTALLATION: <br>
@@ -64,7 +64,7 @@ If you want your clients to be able to purchase voucher codes using e-payment wi
 	add action=accept disabled=no dst-host=mdap.paas.mynt.xyz comment="mdap.paas.mynt.xyz"
 	add action=accept disabled=no dst-host=mgs-gw.paas.mynt.xyz comment="mgs-gw.paas.mynt.xyz"
 	add action=accept disabled=no dst-host=cdnjs.cloudflare.com comment="cdnjs.cloudflare.com"
-	add action=accept disabled=no dst-host=*.xendit.co comment="*.xendit.co"
+	add action=accept disabled=no dst-host=checkout.xendit.co comment="checkout.xendit.co"
 	add action=accept disabled=no dst-host=xqd9eal.x.incapdns.net comment="xqd9eal.x.incapdns.net"
 	add action=accept disabled=no dst-host=45.60.160.35 comment="45.60.160.35"
 	add action=accept disabled=no dst-host=xnd-merchant-logos.s3.amazonaws.com comment="xnd-merchant-logos.s3.amazonaws.com"
@@ -82,6 +82,8 @@ If you want your clients to be able to purchase voucher codes using e-payment wi
 	add action=accept disabled=no dst-host=e9816.cj.akamaiedge.net comment="e9816.cj.akamaiedge.net"
 	add action=accept disabled=no dst-host=104.67.185.229 comment="104.67.185.229"
 	add action=accept disabled=no dst-host=*.gcash.com.edgekey.net comment="*.gcash.com.edgekey.net"
+	add action=accept disabled=no dst-host=assets.xendit.co comment="assets.xendit.co"
+	add action=accept disabled=no dst-host=checkout-ui-gateway.xendit.co comment="checkout-ui-gateway.xendit.co"
 
 ====================== <br>
 IV. PAY-OUT and FEES <br>
