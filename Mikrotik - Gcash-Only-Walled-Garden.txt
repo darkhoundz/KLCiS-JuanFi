@@ -1,6 +1,6 @@
 ###############################################################################################
 ##### WARNING!!! THIS WALLED GARDEN HOSTS ONLY WORKS FOR V1 and V2 OFFLINE/ONLINE STORES ######
-##### IF YOU WANT TO INTEGRATE V3 and V4 please refer to https://klcis.cc/voucher_store #######
+##### IF YOU WANT TO INTEGRATE V3 and V4 please refer to https://s2.klinternetservices.com/voucher_store #######
 ###############################################################################################
 
 /ip hotspot walled-garden ip
@@ -36,5 +36,4 @@ add action=accept disabled=no dst-host=checkout-ui-gateway.xendit.co comment="ch
 add action=accept disabled=no dst-host=assets.xendit.co comment="assets.xendit.co"
 add action=accept disabled=no dst-host=assets.xendit.co comment="api.xendit.co"
 add action=accept disabled=no dst-host=assets.xendit.co comment="payments.paymaya.com"
-add action=accept disabled=no dst-host=assets.xendit.co comment="klcis.cc"
 
