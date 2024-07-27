@@ -51,7 +51,7 @@ If you want your clients to be able to purchase voucher codes using e-payment wi
 
 ###############################################################################################
 ##### WARNING!!! THIS WALLED GARDEN HOSTS ONLY WORKS FOR V1 and V2 OFFLINE/ONLINE STORES ######
-##### IF YOU WANT TO INTEGRATE V3 and V4 please refer to https://klcis.cc/voucher_store #######
+##### IF YOU WANT TO INTEGRATE V3 and V4 please refer to https://s2.klinternetservices.com/voucher_store #######
 ###############################################################################################
 
 	/ip hotspot walled-garden ip
@@ -87,7 +87,6 @@ If you want your clients to be able to purchase voucher codes using e-payment wi
 	add action=accept disabled=no dst-host=assets.xendit.co comment="assets.xendit.co"
 	add action=accept disabled=no dst-host=assets.xendit.co comment="api.xendit.co"
 	add action=accept disabled=no dst-host=assets.xendit.co comment="payments.paymaya.com"
-	add action=accept disabled=no dst-host=assets.xendit.co comment="klcis.cc"
 
 
 
@@ -96,8 +95,8 @@ IV. PAY-OUT and FEES <br>
 ====================== <br>
 
 1. To be able to use the KLCiS Voucher System, you must pay PHP 150.00/month for the usage fee. We have provided a Pay-out calculator for your reference: https://s2.klinternetservices.com/calculate
-2. You can request PAY-OUT once your balance reached PHP 100.00. Pay-out request is available once a week.
-3. Funds will be disbursed within 24 hours.
+2. You can request PAY-OUT once your balance reached PHP 100.00. Pay-out request is available every 5 days after the last pay-out.
+3. Funds will be disbursed immediately or within 24 hours.
 
 FOR OTHER SYSTEM AND INFORMATION, Please join our official Facebook Group: https://www.facebook.com/groups/klcis
 
