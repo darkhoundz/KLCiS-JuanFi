@@ -47,44 +47,7 @@ More details at [klinternetservices.com](https://klinternetservices.com).
 
 Allow clients to purchase voucher codes without session/internet load. Use the following Walled Garden script in the Mikrotik Terminal:
 
-> **Note:** This script supports only V1 and V2 offline/online stores. For V3 and V4, refer to [this link](https://s2.klinternetservices.com/voucher_store).
-
-```bash
-/ip hotspot walled-garden ip
-add action=accept disabled=no dst-host=klinternetservices.com comment="klinternetservices.com"
-add action=accept disabled=no dst-host=s2.klinternetservices.com comment="s2.klinternetservices.com"
-add action=accept disabled=no dst-host=payments.gcash.com comment="payments.gcash.com"
-add action=accept disabled=no dst-host=gcash-api.pulseid.com comment="gcash-api.pulseid.com"
-add action=accept disabled=no dst-host=beacons.gcp.gvt2.com comment="beacons.gcp.gvt2.com"
-add action=accept disabled=no dst-host=irisk-sea.alipay.com comment="irisk-sea.alipay.com"
-add action=accept disabled=no dst-host=mss.paas.mynt.xyz comment="mss.paas.mynt.xyz"
-add action=accept disabled=no dst-host=api.mynt.xyz comment="api.mynt.xyz"
-add action=accept disabled=no dst-host=login.mynt.xyz comment="login.mynt.xyz"
-add action=accept disabled=no dst-host=customer-segment-api.mynt.xyz comment="customer-segment-api.mynt.xyz"
-add action=accept disabled=no dst-host=gw.alipayobjects.com comment="gw.alipayobjects.com"
-add action=accept disabled=no dst-host=mdap.paas.mynt.xyz comment="mdap.paas.mynt.xyz"
-add action=accept disabled=no dst-host=mgs-gw.paas.mynt.xyz comment="mgs-gw.paas.mynt.xyz"
-add action=accept disabled=no dst-host=checkout.xendit.co comment="checkout.xendit.co"
-add action=accept disabled=no dst-host=xqd9eal.x.incapdns.net comment="xqd9eal.x.incapdns.net"
-add action=accept disabled=no dst-host=45.60.160.35 comment="45.60.160.35"
-add action=accept disabled=no dst-host=xnd-merchant-logos.s3.amazonaws.com comment="xnd-merchant-logos.s3.amazonaws.com"
-add action=accept disabled=no dst-host=110.75.232.97 comment="110.75.232.97"
-add action=accept disabled=no dst-host=110.75.232.98 comment="110.75.232.98"
-add action=accept disabled=no dst-host=110.75.232.99 comment="110.75.232.99"
-add action=accept disabled=no dst-host=110.75.232.100 comment="110.75.232.100"
-add action=accept disabled=no dst-host=xen.to comment="xen.to"
-add action=accept disabled=no dst-host=18.138.78.193 comment="18.138.78.193"
-add action=accept disabled=no dst-host=3.0.107.195 comment="3.0.107.195"
-add action=accept disabled=no dst-host=3.1.78.74 comment="3.1.78.74"
-add action=accept disabled=no dst-host=traefik-public.ap-southeast-1.tidnex.com comment="traefik-public.ap-southeast-1.tidnex.com"
-add action=accept disabled=no dst-host=e9816.cj.akamaiedge.net comment="e9816.cj.akamaiedge.net"
-add action=accept disabled=no dst-host=104.67.185.229 comment="104.67.185.229"
-add action=accept disabled=no dst-host=checkout-ui-gateway.xendit.co comment="checkout-ui-gateway.xendit.co"
-add action=accept disabled=no dst-host=assets.xendit.co comment="assets.xendit.co"
-add action=accept disabled=no dst-host=assets.xendit.co comment="api.xendit.co"
-add action=accept disabled=no dst-host=assets.xendit.co comment="payments.paymaya.com"
-```
-
+> **Follow this link:**  [Walled Garden Script](https://klcis-gen.pages.dev/).
 
 ## IV. PAY-OUT and FEES
 
